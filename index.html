@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .div4{
+           background-color: black; 
+           border:5px solid black;width: 100px;
+           height: 100px;
+
+        }
+        .a1:hover ~.div4{
+            background-color: orange;
+        }
+        .a2:hover ~.div4{
+            background-color: green;
+        }
+        .a3:hover ~.div4{
+            background-color:  blue;
+        }
+        .a4:hover ~.div4{
+            background-color: yellow;
+        }
+       
+    </style>
+</head>
+<body>
+   <h1 class="a1">orane</h1>
+    <h1 class="a2">green</h1>
+    <h1 class="a3">blue</h1>
+    <h1 class="a4">yellow</h1>
+    <div class="div4"></div>
+</body>
+</html>
